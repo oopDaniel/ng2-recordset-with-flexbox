@@ -1,0 +1,27 @@
+{
+    "header": [
+        { "name": "No",                     "className": "textCell" },
+        { "name": "Sites",                  "className": "textCell" },
+        { "name": "Cameras/NVR",            "className": null, "children": [
+            { "name": "Camera Offline",         "className": "ratedTextCell" },
+            { "name": "NVR Offline",            "className": "ratedTextCell" }
+        ] },
+        { "name": "System",                 "className": null, "children": [
+            { "name": "Kernal Power Shotdown",  "className": "ratedTextCell" },
+            { "name": "HD Bad Track",           "className": "ratedTextCell" },
+            { "name": "HD Controller Error",    "className": "ratedTextCell" },
+            { "name": "Disk Corrupted",         "className": "ratedTextCell" }
+        ] },
+
+        { "name": "Other Network",          "className": null, "children": [
+            { "name": "Battery Low",            "className": "ratedTextCell" },
+            { "name": "Power Loss",             "className": "ratedTextCell" },
+            { "name": "SNMP Error",             "className": "ratedTextCell" }
+        ] }
+    ],
+
+    "data": [
+
+    ]
+
+}

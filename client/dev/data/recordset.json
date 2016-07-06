@@ -1,3 +1,23 @@
 {
-    "data": [49, 100]
+    "header": [
+        { "name": "No",                     "className": "textCell",      "rowspan": 2 },
+        { "name": "Sites",                  "className": "textCell",      "rowspan": 2 },
+        { "name": "Cameras/NVR",            "className": null,            "colspan": 2 },
+        { "name": "Camera Offline",         "className": "ratedTextCell" },
+        { "name": "NVR Offline",            "className": "ratedTextCell" },
+        { "name": "System",                 "className": null,            "colspan": 4 },
+        { "name": "Kernal Power Shotdown",  "className": "ratedTextCell" },
+        { "name": "HD Bad Track",           "className": "ratedTextCell" },
+        { "name": "HD Controller Error",    "className": "ratedTextCell" },
+        { "name": "Disk Corrupted",         "className": "ratedTextCell" },
+        { "name": "Other Network",          "className": null,            "colspan": 3 },
+        { "name": "Battery Low",            "className": "ratedTextCell" },
+        { "name": "Power Loss",             "className": "ratedTextCell" },
+        { "name": "SNMP Error",             "className": "ratedTextCell" }
+    ],
+
+    "data": [
+
+    ]
+
 }
